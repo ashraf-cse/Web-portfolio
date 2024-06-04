@@ -1,0 +1,312 @@
+body{
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 300 to 800
+    
+    .open-sans-<uniquifier> {
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      font-variation-settings:
+        "wdth" 100;
+    } 
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px;
+
+
+}
+nav ul{
+
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+
+}
+nav a{
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nav-title{
+font-size: 45px;
+font-weight: 800;
+color: rgb(24,24,24);
+
+}
+
+
+
+.primary-color{
+    color: rgb(253, 110, 10);
+
+}
+.primary-btn{
+height: 64px;
+border-radius: 5px;
+border: 0px;
+background: rgb(253, 110, 10);
+color: rgb(255, 255, 255);
+font-size: 20px;
+font-weight: 700;
+padding: 18px 35px;
+}
+
+.header{
+    background: rgb(255, 248, 243);
+    background-image: url('../images/header_bg.png'),url('/images/developer.png');
+     background-repeat: no-repeat;
+    background-position: bottom right,top left;
+   
+    
+}
+
+.banner{
+ display: flex;
+ padding: 30px 30px 0px 150px;
+ justify-content: space-between;
+ align-items: center;
+
+}
+
+.banner-greeting{
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.banner-title{
+    color: rgb(24, 24, 24);
+font-size: 85px;
+font-weight: 700;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+.banner-description{
+    color: rgb(117, 117, 117);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+
+
+}
+.secondary-btn{
+height: 64px;
+width: 160px;
+border: 1px solid rgb(253, 110, 10);
+border-radius: 5px;
+color: rgb(253, 110, 10);
+font-size: 20px;
+font-weight: 700;
+padding: 19px 23px;
+
+}
+
+.banner-profile{
+
+}
+
+.profile{
+    width: 584px;
+    height: 676px;
+}
+
+/* main releted work */
+/* section{
+    max-width: 1140px;
+    margin: 130px auto;
+} */
+
+main{
+    max-width: 1140px;/*every main width are same width*/
+   margin: 0px auto;   /*jaiga hisebe margin hobe */
+}
+.about-me{
+    border-radius: 10px;
+background: rgb(255, 248, 243);
+padding: 130px;
+margin-top: 130px;
+
+}
+.section-title{
+    color: rgb(24, 24, 24);
+font-size: 35px;
+font-weight: 700;
+text-align: center;
+}
+.section-description{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;  
+    text-align: center; 
+}
+.contact-informatin{
+ display: flex;
+ gap: 30px;
+ justify-content: center;
+ text-align: center;
+ 
+}
+.contact-information-title{
+    
+    font-size: 20px;
+    font-weight: 700;
+    color:rgb(117, 117, 117)
+    margin-bottom: 0px;
+}
+.contact-info{
+color: rgb(71, 71, 71);
+font-size: 20px;
+font-weight: 700
+margin-top: 2px;
+}
+
+.What-i-do{
+margin-top: 130px;
+}
+.program-name{
+    color: rgb(24, 24, 24);
+font-size: 20px;
+font-weight: 700;
+
+}
+.What-i-do-experience{
+    display: flex;
+    gap:24px;
+}
+.what-i-do-details{
+    padding: 20px ;
+border-radius: 5px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+/* Rectangle 5 */
+
+width: 267px;
+}
+.what-i-do-description{
+    color: rgb(117, 117, 117);
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+}
+
+.do-descripton{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+.what-i-do-details img{
+    width: 28.95px;
+height: 20.57px
+}
+.resume{
+    padding-top: 130px;
+}
+
+.resume-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.section-title{
+ color: rgb(24, 24, 24);
+font-size: 35px;
+text-align: center;
+}
+.skill{
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+}
+.education-degree{
+ color: rgb(71, 71, 71);
+font-size: 25px;
+font-weight: 700;
+line-height: 34px;
+margin-bottom: 2px;
+}
+.university-name{
+    color: rgb(117, 117, 117);
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 5px;
+}
+.education-description{
+    color: rgb(117, 117, 117);
+font-size: 16px;
+font-weight: 400;
+margin-top: 2px;
+}
+#btn{
+    display: grid;
+    justify-content: center;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+/* footer related work */
+.footer-container{
+ background: rgb(255, 248, 243);
+ display: flex;
+ gap: 117px;
+ padding: 130px 230px;
+ justify-content: center;
+
+ 
+}
+.connect-container{
+
+}
+.footer-title{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    /* text-align: center; */
+}
+.connect-description{
+    color: rgb(71, 71, 71);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.icon-container{
+    margin-top: 0px;
+}
+/* form related css */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px; /* Space between the elements */
+}
+
+.input-field {
+    width: 461px;
+    height: 61px;
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    font-size: 16px; 
+}
+
+.textarea-field {
+    width: 461px;
+    height: 180px;
+    padding: 10px; 
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
